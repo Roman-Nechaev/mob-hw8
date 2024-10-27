@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .list {
+    list-style: none;
+  }
+
+  .title {
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    line-height: 1.17;
+  }
+
+  .site-nav, .contact-list {
+    @media screen and (max-width: 767px) { 
+      display: none;
+    }
+  }
