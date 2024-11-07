@@ -17,23 +17,12 @@
     border: none;
     background-color: transparent;
 }
+.menu-button .aria-expanded="true"
 
 
-// .menu-button .icon-cross {
-//     display: none;
-// }
-
-
-// .menu-button.is-open .icon-cross {
-//     display: block;
-// }
-
-
-// .menu-button.is-open .icon-menu {
-//     display: none;
-// }
 
 .mob-menu {
+    display: none;
     position: absolute;
     width: 100%;
     left: 0;
@@ -43,4 +32,7 @@
     background-color: yellow;
     font-size: 16px;
     align-items: center;
+}
+.mob-menu.is-open {
+    display: block;
 }

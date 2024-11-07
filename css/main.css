@@ -326,6 +326,7 @@ body {
 }
 
 .mob-menu {
+  display: none;
   position: absolute;
   width: 100%;
   left: 0;
@@ -335,4 +336,8 @@ body {
   background-color: yellow;
   font-size: 16px;
   align-items: center;
+}
+
+.mob-menu.is-open {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
